@@ -2,6 +2,9 @@
   "name": "dt162g-projekt",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "start": "index.js"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
