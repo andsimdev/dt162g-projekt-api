@@ -26,7 +26,7 @@ app.use(cors({
 var mongoose = require('mongoose');
 
 // Anslut Mongoose till databasen
-mongoose.connect('mongodb://localhost:27017/dt162g-projektDB');
+mongoose.connect('mongodb+srv://andsimdev:hNUnHrtfvVxo6bQR@skolan.h0xqr.mongodb.net/Skolan?retryWrites=true&w=majority');
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection-error:'));
