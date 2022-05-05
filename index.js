@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 // Definiera serverns port
-const port = 27017;
+//const port = 27017;
 
 // Stöd för body-parsing
 const bodyParser = require('body-parser');
@@ -184,7 +184,9 @@ db.once('open', function (callback) {
   })
 });
 
+/*
 // Starta server mot önskad port
 app.listen(port, () => {
   console.log("Server startad på port " + port);
 });
+*/
