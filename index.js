@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 // Definiera serverns port
-const port = 3000;
+const port = 27017;
 
 // Stöd för body-parsing
 const bodyParser = require('body-parser');
